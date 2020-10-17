@@ -40,4 +40,4 @@ noun = [
 x = random.choice(adj) + ', '  + random.choice(adj) + ', ' + random.choice(adj) + ' ' + random.choice(noun)
 y =  x.encode('utf-8')
 h = hashlib.md5(y).hexdigest()
-sg.popup(x + " " +  h, title="KeyGen", font=15)
+sg.popup(x + " " +  h, title="KeyGen", font=35, background_color='black')
