@@ -1,6 +1,7 @@
 import PySimpleGUI as sg      
 import random
 import hashlib
+import pyperclip
 adj = [
     'needless',
     'overwrought',
@@ -36,8 +37,8 @@ noun = [
     'cat',
     'eggs',
 ]
-
 x = random.choice(adj) + ', '  + random.choice(adj) + ', ' + random.choice(adj) + ' ' + random.choice(noun)
 y =  x.encode('utf-8')
 h = hashlib.md5(y).hexdigest()
+pyperclip.copy(x + " " + h)
 sg.popup(x + " " +  h, title="KeyGen", font=35, background_color='black')
