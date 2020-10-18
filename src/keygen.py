@@ -20,7 +20,27 @@ adj = [
     'educated',
     'glorious',
     'majestic',
-    'godly'
+    'godly',
+    'evasive',
+    'impossible',
+    'serious',
+    'enormous',
+    'fresh',
+    'pointless',
+    'juicy',
+    'fabulous',
+    'graceful',
+    'excited',
+    'premium',
+    'terrific',
+    'wacky',
+    'wonderful',
+    'cute',
+    'petite',
+    'overjoyed',
+    'safe',
+    'deafening',
+    'abusive'
 ]
 noun = [
     'kitten',
