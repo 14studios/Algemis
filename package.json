@@ -1,0 +1,24 @@
+{
+    "name": "algemis",
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "contributors": [
+        {
+            "name": "BeanedTaco",
+            "url": "https://bean.codes",
+            "email": "hello@bean.codes"
+        },
+        {
+            "name": "justinl681",
+            "url": "https://github.com/justinl681"
+        }
+    ],
+    "license": "Apache-2.0",
+    "dependencies": {
+        "discord.js": "^12.4.0",
+        "utf8": "^3.0.0",
+        "base-64": "^1.0.0",
+        "hashids": "^2.2.1",
+        "decode-encode-binary": "^1.4.14"
+    }
+}
